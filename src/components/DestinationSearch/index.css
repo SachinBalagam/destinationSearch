@@ -1,1 +1,37 @@
 /* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  color: #0f172a;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+.input-box {
+  border: none;
+  background-color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  outline: none;
+}
+.search-image {
+  width: 20px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
